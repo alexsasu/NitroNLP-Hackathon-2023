@@ -1,6 +1,6 @@
 # NitroNLP-Hackathon-2023
 
-The hackathon ([link](https://www.kaggle.com/competitions/nitro-language-processing-2/)) was for a multi-class classification task, consisting of classifying texts written in Romanian, from multiple sources: social media, web articles, books; into different types of sexism: sexist direct, sexist descriptive, sexist reporting, non-sexist offensive, and non-sexist non-offensive. The metric of interest was the weighted accuracy, given that the dataset was imbalanced.
+The hackathon ([link](https://www.kaggle.com/competitions/nitro-language-processing-2/); called NitroNLP, hosted in 2023) was for a multi-class classification task, consisting of classifying texts written in Romanian, from multiple sources: social media, web articles, books; into different types of sexism: sexist direct, sexist descriptive, sexist reporting, non-sexist offensive, and non-sexist non-offensive. The metric of interest was the weighted accuracy, given that the dataset was imbalanced.
 
 Our approaches first consisted of trying classical machine learning methods, namely: **Decision Tree**, **KNN**, **MLP**; with the **BoW** representation, and, because these didn't bring us a satisfying weighted accuracy score, we moved on to a version of **BERT** called **RoBERT**, pre-trained on a Romanian corpus, which we then fine-tuned on our dataset and applied balanced weights to it.
 
