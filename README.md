@@ -10,7 +10,7 @@ Our approaches first consisted of trying classical machine learning methods, nam
 ![image](https://github.com/alexsasu/NitroNLP-Hackathon-2023/assets/87432371/1198f713-0cab-4946-ad95-2b3229b0242b)
 </details>
 
-Our full documentation for this competition can be consulted in the "Paper.pdf".
+Our full documentation for this competition can be consulted in the "Paper.pdf" file.
 
 Contributors:
 - Alexandru Rosca (https://github.com/RoscaAlexandru775/)
